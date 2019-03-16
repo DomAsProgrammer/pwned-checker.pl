@@ -1,0 +1,63 @@
+WHAT IS pwned-checker.pl ?
+==================
+It is a simple script to ask you for your passwords and check 
+the database of https://haveibeenpwned.com/Passwords if it was
+disclosed
+
+
+FEATURES
+========
+- allowes to show passwords on entry (by default it doesn't)
+- counts and shows matched passwords, but only as sha1 hash
+
+
+SOFTWARE REQUIREMENTS
+=====================
+- Perl 5.28.1 or higher (not tested older versions)
+
+
+DOCUMENTATION
+=============
+First go to https://haveibeenpwned.com/Passwords and download a
+SHA1 archive. If you copied it to your local drive extract it.
+You can use https://www.7-zip.org/ for this purpose.
+Start pwned-checker.pl with the local text file as argument (mandatory)
+
+./pwned-checker.pl pwned-passwords-sha1-ordered-*-v4.txt [--show-passwords]
+
+Available options:
+
+	File.txt
+		Mandatory! File to sha1 hashed password list of
+		https://haveibeenpwned.com/Passwords
+
+	--show-passwords
+		Optionally show passwords while entering on shell
+		(Disabled by default)
+
+
+LICENSE
+=======
+It is distributed under the GNU General Public License
+version 3 - see the accompanying file "LICENSE" or
+http://www.gnu.org/licenses/gpl.html for more details.
+
+
+GET SOURCE
+==========
+You find package files on, but for this program you already have
+the sources (same as program)
+https://github.com/DomAsProgrammer/
+
+
+REPORTING BUGS
+==============
+I would be glad to hear positive respone, also you can report
+bugs, errors or proposal to DomAsProgrammer@gmail.com or on
+https://github.com/DomAsProgrammer
+
+
+AUTHORS
+=======
+- Dominik Bernhardt 
+    DomAsProgrammer@gmail.com ; https://github.com/DomAsProgrammer
