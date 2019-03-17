@@ -58,7 +58,7 @@ print "\n\n    pwned-checker.pl - check database of https://haveibeenpwned.com/P
     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
     GNU General Public License for more details.\n\n";
 
-print "You can quit everytime by pressing [Crtl] + [C]\n";
+print "You can quit everytime by pressing [Ctrl] + [C]\n";
 
 Passwords:
 while ( 1 ) {
